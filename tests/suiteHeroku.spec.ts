@@ -3,7 +3,6 @@ import { HomePage } from '../pages/homePage';
 import { Link1Page } from '../pages/Secciones/link1Page';
 
 
-
 test.describe('Grupo de pruebas - Heroku', () => {
 
   test('QA-1 - A/B Testing', async ({ page }) => {

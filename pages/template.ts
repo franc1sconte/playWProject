@@ -2,7 +2,7 @@ import { Page, Locator, expect } from '@playwright/test';
 
 // [Page para link #1] 'A/B Testing'
 
-export class Link1Page {
+export class tempLate {
   readonly page: Page;
 
   constructor(page: Page) {
@@ -15,14 +15,7 @@ export class Link1Page {
 
   /// Assertions ///
 
-  getDivPadre(): Locator {
-    return this.page.locator('[class="example"]');
-  }
-
-  getTitulo(): Locator {
-    return this.getDivPadre().locator('h3');
-  }
-
   /// Methods ///
+
 
 }
